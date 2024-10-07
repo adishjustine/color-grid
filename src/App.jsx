@@ -44,8 +44,8 @@ function App() {
   }, [audio]);
 
   return (
-    <div className="grid grid-cols-4 grid-rows-10 gap-4 p-4 h-screen w-screen">
-      {Array(9).fill().map((_, i) => (
+    <div className="grid grid-cols-4 grid-rows-10 gap-2 p-4 h-screen w-screen">
+      {Array(40).fill().map((_, i) => (
         <GridItem key={i} audio={audio} />
       ))}
     </div>
